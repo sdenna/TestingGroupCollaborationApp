@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="2"
+    android:rowCount="5"
+    android:padding="@dimen/padding"
+    android:layout_margin="@dimen/padding"
+    tools:context=".MainActivity"
+    android:layout_gravity="center_horizontal"
+    >
+
+    <TextView
+        android:layout_width="@dimen/editTextWidth"
+        android:layout_height="wrap_content"
+        android:text="Bill"
+        android:textSize="@dimen/labelTextSize"
+        android:textColor="@color/colorText"
+        android:layout_marginBottom="@dimen/padding"
+
+        />
+
+    <EditText
+        android:id="@+id/billEditText"
+        android:layout_width="@dimen/editTextWidth"
+        android:textSize="@dimen/labelTextSize"
+        android:textColor="@color/colorText"
+        android:background="@color/colorBackground"
+        android:inputType="numberDecimal"
+        android:padding="@dimen/padding"
+        android:layout_marginBottom="@dimen/padding"
+
+/>
+
+    <TextView
+        android:layout_width="@dimen/editTextWidth"
+        android:layout_height="wrap_content"
+        android:text="Percent"
+        android:textSize="@dimen/labelTextSize"
+        android:textColor="@color/colorText"
+        android:layout_marginBottom="@dimen/padding"
+
+
+        />
+
+    <EditText
+        android:id="@+id/percentEditText"
+        android:layout_width="@dimen/editTextWidth"
+        android:textSize="@dimen/labelTextSize"
+        android:textColor="@color/colorText"
+        android:hint="Ex: 20"
+        android:background="@color/colorBackground"
+        android:inputType="numberDecimal"
+        android:padding="@dimen/padding"
+        android:layout_marginBottom="@dimen/padding"
+
+        />
+
+
+    <TextView
+        android:layout_width="@dimen/editTextWidth"
+        android:layout_height="wrap_content"
+        android:text="Tip:"
+        android:textSize="@dimen/labelTextSize"
+        android:textColor="@color/colorText"
+        android:layout_marginBottom="@dimen/padding"
+        />
+
+    <TextView
+        android:id="@+id/tipTextView"
+        android:layout_width="@dimen/editTextWidth"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/padding"
+        android:background="@color/colorBackgroundAnswer"
+        android:padding="@dimen/padding"
+        android:textColor="@color/colorText"
+        android:textSize="@dimen/labelTextSize" />
+
+
+    <TextView
+        android:layout_width="@dimen/editTextWidth"
+        android:layout_height="wrap_content"
+        android:text="Total:"
+        android:textSize="@dimen/labelTextSize"
+        android:textColor="@color/colorText"
+        android:layout_marginBottom="@dimen/padding"
+        />
+
+    <TextView
+        android:id="@+id/totalTextView"
+        android:layout_width="@dimen/editTextWidth"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/padding"
+        android:background="@color/colorBackgroundAnswer"
+        android:padding="@dimen/padding"
+        android:textColor="@color/colorText"
+
+
+        android:textSize="@dimen/labelTextSize" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_columnSpan="2"
+        android:id="@+id/calculateButton"
+        android:text="Calculate Tip"
+        android:textColor="@color/colorText"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/colorBackground"
+        android:onClick="calculateTip"
+        android:padding="@dimen/padding"/>
+
+
+</GridLayout>

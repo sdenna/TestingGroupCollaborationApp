@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="padding">10dp</dimen>
+    <dimen name="labelTextSize">24sp</dimen>
+    <dimen name="smallTextSize">12sp</dimen>
+    <dimen name="editTextWidth">150dp</dimen>
+</resources>
