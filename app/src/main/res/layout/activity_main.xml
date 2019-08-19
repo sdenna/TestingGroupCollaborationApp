@@ -59,6 +59,41 @@
         />
 
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_columnSpan="2"
+        android:id="@+id/calculateButton"
+        android:text="Calculate Tip"
+        android:textColor="@color/colorText"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/colorBackground"
+        android:onClick="calculateTip"
+        android:layout_marginBottom="40dp"
+        android:padding="@dimen/padding"/>
+
+
+
+
+    <SeekBar
+        android:id="@+id/tipSeekBar"
+        android:layout_width="@dimen/seekBarWidth"
+        android:layout_height="wrap_content"
+        android:progressDrawable="@drawable/custom_progress_bar"
+        android:max="25"
+        android:min="10"
+        android:progress="15"
+        android:layout_columnSpan="2"/>
+        <!-- set custom progress drawable for the progress -->
+
+
+    <TextView
+        android:layout_width="@dimen/seekBarWidth"
+        android:layout_height="wrap_content"
+        android:text="      Poor           Average                         Excellent"
+        android:layout_columnSpan="2"
+        android:paddingBottom="@dimen/padding"/>
+
+
     <TextView
         android:layout_width="@dimen/editTextWidth"
         android:layout_height="wrap_content"
@@ -66,6 +101,7 @@
         android:textSize="@dimen/labelTextSize"
         android:textColor="@color/colorText"
         android:layout_marginBottom="@dimen/padding"
+        android:layout_marginTop="40dp"
         />
 
     <TextView
@@ -76,7 +112,9 @@
         android:background="@color/colorBackgroundAnswer"
         android:padding="@dimen/padding"
         android:textColor="@color/colorText"
-        android:textSize="@dimen/labelTextSize" />
+        android:textSize="@dimen/labelTextSize"
+        android:layout_marginTop="40dp"/>
+
 
 
     <TextView
@@ -96,20 +134,11 @@
         android:background="@color/colorBackgroundAnswer"
         android:padding="@dimen/padding"
         android:textColor="@color/colorText"
-
-
         android:textSize="@dimen/labelTextSize" />
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_columnSpan="2"
-        android:id="@+id/calculateButton"
-        android:text="Calculate Tip"
-        android:textColor="@color/colorText"
-        android:layout_gravity="center_horizontal"
-        android:background="@color/colorBackground"
-        android:onClick="calculateTip"
-        android:padding="@dimen/padding"/>
+
 
 
 </GridLayout>
+
+

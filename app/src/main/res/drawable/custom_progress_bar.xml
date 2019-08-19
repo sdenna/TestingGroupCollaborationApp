@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+        <item>
+            <shape>
+                <gradient
+                    android:endColor="#ffffff"
+                    android:startColor="@color/colorText"
+                    android:useLevel="true" />
+            </shape>
+        </item>
+
+    </layer-list>
+
+
+    <!-- Code modified from following tutorial-->
+    <!-- https://abhiandroid.com/ui/seekbar#How_To_Add_Listener_To_Notify_The_Changes_In_SeekBar -->

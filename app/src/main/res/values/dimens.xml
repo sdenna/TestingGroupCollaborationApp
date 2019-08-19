@@ -4,4 +4,5 @@
     <dimen name="labelTextSize">24sp</dimen>
     <dimen name="smallTextSize">12sp</dimen>
     <dimen name="editTextWidth">150dp</dimen>
+    <dimen name="seekBarWidth">300dp</dimen>
 </resources>
