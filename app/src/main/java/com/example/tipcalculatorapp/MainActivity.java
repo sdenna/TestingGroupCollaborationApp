@@ -106,6 +106,7 @@ public class MainActivity extends AppCompatActivity {
 
         DecimalFormat df = new DecimalFormat("$#.00");
 
+        simpleSeekBar.setProgress((int)percent);
         tipTextView.setText(df.format(tipAmount));
         totalTextView.setText(df.format(finalTotal));     // need to make it a string
 
