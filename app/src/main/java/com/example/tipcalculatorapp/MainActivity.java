@@ -98,6 +98,8 @@ public class MainActivity extends AppCompatActivity {
         TextView totalTextView = (TextView) findViewById(R.id.totalTextView);
         TextView tipTextView = (TextView) findViewById(R.id.tipTextView);
 
+        double noMatter = 2.2;
+
         double bill_without_tip = Double.parseDouble(billEditText.getText().toString());
         double percent = Double.parseDouble(percentEditText.getText().toString());
 
